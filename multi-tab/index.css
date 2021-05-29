@@ -1,0 +1,163 @@
+
+   
+   .gun{
+       display: flex;
+       align-items:center;
+       background:white;
+       text-decoration: none;
+   }
+   .gun{
+       border-color: white;
+       padding:10px;
+       border:0px;
+       border-radius:5px;
+       border-style: solid;
+       border-color: hsla(89, 43%, 51%, 0.3);
+   }
+   #youtube{
+    background-image: url('youtube-logo_edited.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+
+    color:red;
+   }
+   #youtube:hover{
+    
+       transform:scale(1.10);
+   }
+   #youtube:active {
+    background-color: green;
+    box-shadow: 0 3px 7px black;
+    transform: translateY(4px);
+   }
+
+   #facebook{
+    background-image: url('facebook.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+   }
+   #facebook:hover{
+   
+       transform:scale(1.10);
+   }
+   #facebook:active {
+    background-color: green;
+    box-shadow: 0 3px 7px black;
+    transform: translateY(4px);
+   }
+
+   #microsoft{
+    background-image: url('microsoft.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+   }
+   #microsoft:hover{
+   
+       transform:scale(1.10);
+   }
+   #microsoft:active {
+    background-color: green;
+    box-shadow: 0 3px 7px black;
+    transform: translateY(4px);
+   }
+
+   #insta{
+    background-image: url('insta.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+   }
+   #insta:hover{
+     
+       transform:scale(1.10);
+   }
+   #insta:active {
+    background-color: green;
+    box-shadow: 0 3px 7px black;
+    transform: translateY(4px);
+   }
+
+   #tele{
+    background-image: url('Telegram.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+   }
+   #tele:hover{
+       background-color: white;
+       transform:scale(1.10);
+   }
+   #tele:active {
+    background-color: green;
+    box-shadow: 0 3px 7px black;
+    transform: translateY(4px);
+   }
+
+   #twitter{
+    background-image: url('twitter.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+   }
+   #twitter:hover{
+     background-color: white;
+       transform:scale(1.10);
+   }
+   #twitter:active {
+    background-color: green;
+    box-shadow: 0 3px 7px black;
+    transform: translateY(4px);
+   }
+
+
+   #game{
+    background:white;
+    border:1px solid black;
+    color:black;
+   }
+   #game:hover{
+       background-color: orange;
+       transform:scale(1.10);
+   }
+   #game:active {
+    background-color: green;
+    box-shadow: 0 3px 7px black;
+    transform: translateY(4px);
+   }
+
+   #spotify{
+    background-image: url('spotify.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+   }
+   #spotify:hover{
+       background-color: orange;
+       transform:scale(1.10);
+   }
+   #spotify:active {
+    background-color: green;
+    box-shadow: 0 3px 7px black;
+    transform: translateY(4px);
+   }
+
+   #whitehatjr{
+    background:white;
+    border:1px solid orangered;
+    color:#009CBB;
+   }
+   #whitehatjr:hover{
+       background-color:white;
+       transform:scale(1.10);
+   }
+   #whitehatjr:active {
+    background-color: green;
+    box-shadow: 0 3px 7px black;
+    transform: translateY(4px);
+   }
+   .fun{
+        width:275px;
+        height:275px;
+        display:grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        
+    }

@@ -1,0 +1,19 @@
+{
+    "name": "multi-tab",
+    "version":"1.0",
+    "manifest_version":2,
+    "description":"entertinement",
+    
+   "browser_action": {
+      "default_popup": "index.html",
+      "default_icon":"all.png"
+    },
+        
+        "content_scripts": [
+          {
+            "matches": ["<all_urls>"],
+            "html":["index.html"],
+            "css":["index.css"]
+          }
+        ]
+        }
